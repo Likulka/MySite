@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(124, 124, 124);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(74, 74, 74);
+  border-radius: 10px;
+  border: 2px solid rgb(124, 124, 124);
+}
+
+html {
+  overflow: hidden;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(216, 243, 244);
+}
+
+.header {
+  height: 100%;
+  max-width: 100%;
+}
+.header__container {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__main {
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 40%;
+  background-color: #d48750;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 80px;
+  align-items: center;
+  z-index: -2;
+}
+.header__navigation {
+  background-color: #5c9e6b;
+  border-radius: 50px;
+  height: 370px;
+  width: 80px;
+  position: absolute;
+  right: 8.5%;
+  bottom: 27%;
+  box-shadow: 0px 0px 25px 5px rgba(34, 80, 84, 0.25);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.header__navigation li {
+  margin: 15px 0 15px 0;
+}
+.page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-28%, -50%);
+  margin: 0 auto;
+  width: 55%;
+  height: 75%;
+  background-color: #f7ead6;
+  border-radius: 50px;
+  box-shadow: 0px 0px 53px 16px rgba(34, 80, 84, 0.25);
+  z-index: -1;
+}

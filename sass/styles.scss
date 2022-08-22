@@ -1,0 +1,95 @@
+@import "reset.scss";
+
+body{
+    height: 100vh;
+    background-color: rgb(216, 243, 244);
+   
+  }
+
+  .header {
+    height: 100%;
+    max-width: 100%;
+    &__container{
+      display: flex;
+      height: 100%;
+      max-width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__main {
+        height: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 40%;
+        background-color: #d48750;
+        border-bottom-right-radius: 80px;
+        border-top-right-radius: 80px;
+        align-items: center;
+        z-index: -2;
+    }
+
+    &__title {
+        
+    }
+
+    &__subtitle {
+    }
+
+    &__socials {
+      
+    }
+
+    &__navigation{
+      background-color: #5c9e6b;
+      border-radius: 50px;
+      height: 370px;
+      width: 80px;
+      position: absolute;
+      right: 8.5%;
+      bottom: 27%;
+      box-shadow:0px 0px 25px 5px rgba(34, 80, 84, 0.25);
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+      & li{
+        margin: 15px 0 15px 0;
+        
+      }
+    }
+    &__item-githab {
+    }
+
+    &__item-telegram {
+        
+    }
+}
+.title {
+    
+    
+}
+.subtitle {
+}
+
+.page{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-28%, -50%);
+  margin: 0 auto;
+  width: 55%;
+  height: 75%;
+  background-color: #f7ead6;
+  border-radius: 50px;
+  box-shadow: 0px 0px 53px 16px rgba(34, 80, 84, 0.25) ;
+  z-index: -1;
+  
+  
+}
+
+.container{
+  
+}
